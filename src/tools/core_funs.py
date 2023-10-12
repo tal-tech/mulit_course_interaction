@@ -58,6 +58,7 @@ def get_long_sentence_num(df, task_id=''):
     return int(long_sentence_num)
 
 
+
 def get_interaction_score(df, task_id=''):
     t = get_sentence_list_duration_s(df)
     k = get_sentence_num(df)

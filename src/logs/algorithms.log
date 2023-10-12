@@ -1,0 +1,18 @@
+2023-10-12 14:56:00,743 - INFO - 43393 - interaction.py - interaction - 11 - task_id:
+2023-10-12 14:56:00,839 - INFO - 43393 - interaction.py - interaction - 11 - task_id:
+2023-10-12 14:57:29,989 - INFO - 44814 - interaction.py - interaction - 11 - task_id:
+2023-10-12 14:57:29,993 - INFO - 44814 - interaction.py - interaction - 11 - task_id:
+2023-10-12 15:03:00,846 - INFO - 49263 - interaction.py - interaction - 11 - task_id:
+2023-10-12 15:03:00,850 - INFO - 49263 - interaction.py - interaction - 11 - task_id:
+2023-10-12 15:03:13,538 - INFO - 49525 - interaction.py - interaction - 11 - task_id:
+2023-10-12 15:03:13,542 - INFO - 49525 - interaction.py - interaction - 11 - task_id:
+2023-10-12 15:03:13,587 - ERROR - 49525 - util_tools.py - parse_list_2_df - 63 - task_id:,input format error,detail isTraceback (most recent call last):
+  File "/home/luozhuoqing1/project/course_interaction/src/tools/util_tools.py", line 56, in parse_list_2_df
+    df['begin_time'] = np.array(df['begin_time'].values, dtype=np.int)
+  File "/home/luozhuoqing1/anaconda3/envs/course_interaction/lib/python3.6/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/luozhuoqing1/anaconda3/envs/course_interaction/lib/python3.6/site-packages/pandas/core/indexes/range.py", line 358, in get_loc
+    raise KeyError(key)
+KeyError: 'begin_time'
+
+2023-10-12 15:03:13,588 - INFO - 49525 - interaction.py - interaction - 11 - task_id:
